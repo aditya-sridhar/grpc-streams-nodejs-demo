@@ -20,8 +20,8 @@ function main() {
   let employeeIdList = [1,10,2];
   let call = client.paySalary({employeeIdList: employeeIdList});
 
-  call.on('data',function(message){
-    console.log(message);
+  call.on('data',function(response){
+    console.log(response.message);
   });
 
   call.on('end',function(){

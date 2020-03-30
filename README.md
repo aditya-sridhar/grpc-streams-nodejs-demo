@@ -44,5 +44,4 @@ node client_grpc_client_stream.js
 
 ```bash
 node client_grpc_server_stream.js
-
 ```
